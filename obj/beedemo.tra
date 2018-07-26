@@ -1,0 +1,20 @@
+*** Creating Trace Output File '.\obj\beedemo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\startup_lpc17xx.o"'
+### List of Objects: adding '".\obj\main.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\startup_lpc17xx.o" ".\obj\main.o" --strict --scatter ".\obj\beedemo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\beedemo.map" -o ".\obj\beedemo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\beedemo.axf'
+### ADS-LD Command File: '.\obj\beedemo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\beedemo.lnp', Handle=0x000008E4
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\beedemo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.
